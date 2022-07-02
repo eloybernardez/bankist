@@ -201,9 +201,15 @@ nav {
 }
 
 /* OPERATIONS */
+
+.operation-container {
+  height: fit-content;
+}
+
 .operation {
   border-radius: 1rem;
   padding: 3rem 4rem;
+  margin-bottom: 1.5rem;
   color: #333;
 }
 
@@ -284,6 +290,7 @@ h2 {
   margin-top: 1.9rem;
   text-align: right;
   font-size: 1.25rem;
+  grid-row-start: 5;
 }
 
 .timer {

@@ -1,0 +1,152 @@
+body {
+  width: 100%;
+  max-width: 100vw;
+  height: 100vh;
+  padding: 2rem;
+}
+
+nav {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0;
+}
+
+.logo {
+  height: 5rem;
+  margin: 1.5rem 0;
+}
+
+.login {
+  width: 100%;
+  flex-direction: column;
+  padding: 0 2rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.login__input {
+  margin: 1rem 0 1.5rem;
+}
+
+.login__btn {
+  border-radius: 1rem;
+  background-color: rgb(136, 216, 100);
+  width: 50%;
+  max-width: 12rem;
+  font-size: 2.2rem;
+  margin-top: 1.2rem;
+}
+
+/* MAIN */
+.app {
+  display: flex;
+  flex-direction: column;
+
+  /* NOTE This creates the fade in/out anumation */
+  opacity: 0;
+  transition: all 1s;
+}
+
+.balance {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+  order: 1;
+}
+
+.balance__label {
+  font-size: 2.2rem;
+}
+
+.balance__date {
+  font-size: 1.2rem;
+}
+
+.balance__value {
+  font-size: 2.2rem;
+}
+
+/* MOVEMENTS */
+.movements {
+  width: 100%;
+  order: 2;
+}
+
+.movements__row {
+  padding: 1.4rem 2rem;
+}
+
+.movements__type {
+  font-size: 1rem;
+
+  margin-right: 1rem;
+}
+
+.movements__date {
+  font-size: 0.8rem;
+}
+
+.movements__value {
+  font-size: 1.2rem;
+}
+
+/* SUMMARY */
+.summary {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  flex-wrap: wrap;
+  order: 2;
+}
+
+.summary__label {
+  font-size: 1rem;
+}
+
+.summary__value {
+  font-size: 1.8rem;
+  margin: 0 2rem 1rem 0;
+}
+
+.btn--sort {
+  margin-left: 2.5rem;
+  font-size: 1.3rem;
+}
+
+/* OPERATIONS */
+
+.operation-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-evenly;
+  order: 3;
+}
+.operation {
+  border-radius: 1rem;
+  padding: 1.5rem;
+}
+
+/* Exceptions for interst */
+.form.form--loan {
+  grid-template-columns: 3fr 0.6fr;
+}
+/* End exceptions */
+
+.form__input {
+  width: 100%;
+  font-size: 1.5rem;
+  padding: 0.3rem 1rem;
+}
+
+.form__btn {
+  font-size: 1.8rem;
+}
+
+.logout-timer {
+  order: 4;
+}
