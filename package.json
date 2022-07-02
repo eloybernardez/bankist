@@ -1,0 +1,16 @@
+{
+  "name": "bankist-app",
+  "version": "1.0.0",
+  "description": "an app for basic operations (transfer, loan and close account)",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "javascript",
+    "html",
+    "css"
+  ],
+  "author": "Eloy Bernardez",
+  "license": "MIT"
+}
