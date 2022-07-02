@@ -1,7 +1,7 @@
 {
   "name": "bankist-app",
   "version": "1.0.0",
-  "description": "an app for basic operations (transfer, loan and close account)",
+  "description": "an app for basic bank operations (transfer, loan and close account)",
   "main": "script.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
